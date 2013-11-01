@@ -60,6 +60,8 @@ class Main extends Sprite {
 		if (sound != null){
 			channel = sound.play();
 		}
+		else
+			debug.text = "Bad track, sound is null: " + filename;
 	}
 	
 	private function this_onMouseDown (event:MouseEvent):Void {
