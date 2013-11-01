@@ -51,11 +51,11 @@ class Main extends Sprite {
 	}
 	
 	private function play(track:Int = 0):Void {
-		var filename:String = "assets/sound" + track + ".ogg";
+		var filename:String = "music/sound" + track + ".ogg";
 		
 		var sound:Sound = Assets.getSound(filename);
 		
-		debug.text = "playing sound " + filename;
+		debug.text = "playing track " + filename;
 		
 		if (sound != null){
 			channel = sound.play();

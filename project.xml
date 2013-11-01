@@ -9,6 +9,8 @@
 	<haxelib name="openfl" />
 	
 	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<assets path="Assets/music" rename="music" type="music" include="*.ogg" />
+	
 	<icon path="Assets/openfl.svg" />
 	
 </project>
