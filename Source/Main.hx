@@ -27,7 +27,7 @@ class Main extends Sprite {
 		track = 0;
 		numtracks = 4;
 		
-		var font = Assets.getFont ("assets/VeraSeBd.ttf");
+		var font = Assets.getFont ("fonts/VeraSeBd.ttf");
 		var format1:TextFormat = new TextFormat (font.fontName, 25, 0xffffff);
 
 		debug = new TextField();
