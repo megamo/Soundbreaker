@@ -25,7 +25,7 @@ class Main extends Sprite {
 		super ();
 		
 		track = 0;
-		numtracks = 4;
+		numtracks = 10;
 		
 		var font = Assets.getFont ("fonts/VeraSeBd.ttf");
 		var format1:TextFormat = new TextFormat (font.fontName, 25, 0xffffff);
@@ -60,8 +60,7 @@ class Main extends Sprite {
 		if (sound != null){
 			channel = sound.play();
 		}
-		else
-			debug.text = "Bad track, sound is null: " + filename;
+
 	}
 	
 	private function this_onMouseDown (event:MouseEvent):Void {

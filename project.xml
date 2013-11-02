@@ -13,4 +13,6 @@
 	
 	<icon path="Assets/openfl.svg" />
 	
+    <architecture name="armv7" if="android" />
+	
 </project>
